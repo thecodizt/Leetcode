@@ -1,0 +1,26 @@
+{
+	"name": "Leetcode",
+	"version": "1.0.0",
+	"description": "Leetcode electron app",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "electron .",
+		"build": "electron-builder"
+	},
+	"build": {
+		"appId": "com.example.leetcodeproblems",
+		"mac": {
+			"icon": "icon.icns"
+		},
+		"win": {
+			"icon": "icon.ico"
+		}
+	},
+	"author": "TheCodizt",
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "^25.3.1",
+		"electron-builder": "^24.6.3"
+	}
+}
